@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url(https://images5.alphacoders.com/360/360925.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #DDD9D7;
+    position: relative;
+    padding-bottom: 30em;
+    }
+
+/*
+   -- HEADER---
+                */
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125px;
+    padding: 5px 10%;
+    border: 0.5px solid white;
+    opacity: 0.9;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 180px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+/*
+   -- TITULO <H1> ---
+                       */
+
+.titulo{
+   color: #FE4001;
+   padding: 10px;
+   text-align: center;
+   background: #DCDEDC;
+   width: 100%;
+   border: 1px solid white;
+   text-decoration: none;
+   border: 0px;
+   color: #FE4001;
+   font-family: unset;
+   font-size: 60px;
+   letter-spacing: 13px;
+   opacity: 0.4;
+}
+
+
+
+.iconos{
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+    margin: -30px;
+    width: 60px;
+    height: 80px;
+}
+.iconos img{
+   width: 80px;
+   height: 70px;
+   margin: -30px;
+   display: flex;
+   justify-items: start;
+}
+
+/*
+   -- CUERPO ---
+                */
+
+.tt{
+    font-size: 60px;
+    font-family: fantasy;
+    color: #FE4001;
+    text-align: center;
+    margin: 40px 0px;
+        
+
+}
+
+.tt button{
+
+    text-decoration: none;
+    border: 0px;
+    background-color: transparent;
+    color: #FE4001;
+    font-family: unset;
+    transition: all 300ms;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.tt button:hover{
+     transform: scale(1.09);
+}
+.card{
+    
+    padding:0px ;
+    margin: 80px;
+    border-radius: 5px; 
+    border: 0px solid #800000;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card img{
+    width: 350px;
+    height: 200px;
+    transition: all 300ms;
+}
+
+.card img:hover{
+   transform: scale(1.09);
+}
+.tituloss {
+    font-size: 35px;
+    color: red;
+    font-family: sans-serif;
+}
+.card-footer bg-transparent border-success{
+    margin: 80px;
+    padding: 80px 30px;
+}
+.valores{
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     grid-gap: 50px;
+     color: black;
+     font-family: sans-serif;
+     font-size: 38px;
+     background: transparent;
+     padding: 0px 160px;
+}
+.descripcion button{
+     text-decoration: none;
+    border: 0px;
+    background: none;
+    color: #FB3801;
+    font-family: sans-serif;
+    transition: all 300ms;
+    font-size: 40px; 
+    
+    color: #020000;
+}
+.descripcion button:hover{
+     transform: scale(1.09);
+
+}
+ .cop{
+     margin: 40px 115px;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     grid-gap: 230px;
+     padding: 0px 60px;
+
+ }
+
+
+ .cop button{
+
+    text-decoration: none;
+    border: 0px;
+    background: none;
+    color: #FB3801;
+    font-family: sans-serif;
+    transition: all 300ms;
+    font-size: 40px;
+ }
+
+ .cop button:hover{
+    transform: scale(1.09);
+ }
+ .cop1{
+    
+    background: none;
+
+ }
+
+
+ .cop2{
+    
+ }
+ .cop3{
+    
+ }
+ .cop4{
+    
+ }
+/*
+   -- FOOTER---
+                */
+
+.pie{
+    background: #191818;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.imagener{
+    width: 120px;
+    
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 10px
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logotipo{
+    font-size: 18px;
+    color: white;
+}
+.padre{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.padre div{
+    display: flex;
+    flex-direction: column;
+}
+.padre h2{
+    color: white;
+    padding: 10px 0;
+}
+.padre a{
+    color: rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+    color: white;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+    color: blueviolet;
+    font-size: 18px;
+}
+.derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #191818;
+    color: white;
+}
+.ppp{
+    color: white;
+    font-family: sans-serif;
+    justify-items: center;
+    font-size: 38px;
+}
+.pppp{
+    color: #F97C16;
+    font-family: sans-serif;
+    justify-items: center;
+    font-size: 32px;
+}
